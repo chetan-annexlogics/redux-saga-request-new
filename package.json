@@ -1,0 +1,49 @@
+{
+  "name": "redux-saga-request",
+  "version": "1.0.0",
+  "description": "Helper functions for easier development of API requests using redux and redux-saga",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:commonjs": "cross-env BABEL_ENV=cjs babel src --out-dir lib",
+    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chetan-annexlogics/redux-saga-request.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-saga",
+    "react",
+    "request",
+    "axios",
+    "api",
+    "javascript"
+  ],
+  "files": [
+    "src",
+    "lib"
+  ],
+  "author": "AnnexLogics System Pvt. Ltd.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chetan-annexlogics/redux-saga-request/issues"
+  },
+  "homepage": "https://github.com/chetan-annexlogics/redux-saga-request#readme",
+  "devDependencies": {
+    "babel-cli": "^7.0.0",
+    "babel-core": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "7.0.0",
+    "babel-plugin-transform-runtime": "^7.0.0",
+    "babel-polyfill": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^7.0.0",
+    "cross-env": "^5.2.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "redux-actions": "^2.6.5",
+    "redux-saga": "^1.1.3"
+  }
+}
