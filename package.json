@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/chetan-annexlogics/redux-saga-request#readme",
   "devDependencies": {
+    "@babel/runtime": "^7.16.7",
     "babel-cli": "^7.0.0",
     "babel-core": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "7.0.0",
