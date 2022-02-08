@@ -1,5 +1,5 @@
 {
-  "name": "redux-saga-request",
+  "name": "redux-saga-request-new",
   "version": "1.0.0",
   "description": "Helper functions for easier development of API requests using redux and redux-saga",
   "main": "lib/index.js",
