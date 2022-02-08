@@ -28,9 +28,9 @@
   "author": "AnnexLogics System Pvt. Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chetan-annexlogics/redux-saga-request/issues"
+    "url": "https://github.com/chetan-annexlogics/redux-saga-request-new/issues"
   },
-  "homepage": "https://github.com/chetan-annexlogics/redux-saga-request#readme",
+  "homepage": "https://github.com/chetan-annexlogics/redux-saga-request-new#readme",
   "devDependencies": {
     "@babel/runtime": "^7.17.0",
     "babel-cli": "^7.16.7",
@@ -45,6 +45,7 @@
   "dependencies": {
     "immutable": "^3.8.2",
     "redux-actions": "^2.6.5",
-    "redux-saga": "^1.1.3"
+    "redux-saga": "^1.1.3",
+    "@babel/runtime": "^7.17.0"
   }
 }
